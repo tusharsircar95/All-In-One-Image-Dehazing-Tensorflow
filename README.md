@@ -11,9 +11,9 @@ An explanation and walk-through is provided <a href="https://medium.com/@tushars
   <li> Image size was set to 480x640 and were normalized to [0,1] </li>
   <li>90% of the data was kept for training and the rest 10% for validation</li>
   <li> Adam optimizer with learning rate of 0.0001 was used. Gradient norm was clipped at 0.1.</li>
-  <li> Weights were initialized with a standard Gaussian distribution and a weight decay of 0.0001 was used.</li>
+  <li> Weights were initialized with a Gaussian distribution (Mean 0.0, STD 0.02) and a weight decay of 0.0001 was used.</li>
   <li> 8 epoch were run, although significant improvement was not observed after 3 epochs.</li>
-  <li> Loss function was MSE. Train MSE and Validation MSE were about ~ 0.018
+  <li> Loss function was MSE. Train MSE and Validation MSE were about ~ 0.015
 </ul>
 
 ## Evaluation
