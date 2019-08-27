@@ -2,6 +2,8 @@
 
 Tensorflow implementation of an extremely light weight All In One Image Dehazing (AOD) network as described <a href="https://sites.google.com/site/boyilics/website-builder/project-page">here</a>
 
+An explanation and walk-through is provided <a href="https://medium.com/@tusharsircar95/all-in-one-image-dehazing-aod-paper-explanation-tensorflow-implementation-bb97f6a6f1ef">here</a>.
+
 ## Training & Validation
 
 <ul>
